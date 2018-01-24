@@ -1,6 +1,6 @@
 ## Dependencies
 
-`dep` is a dependency management Go. 
+`dep` is a dependency management for Go. 
 
 ```sh
 go get -u github.com/golang/dep/cmd/dep

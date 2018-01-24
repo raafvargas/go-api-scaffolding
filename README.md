@@ -5,6 +5,7 @@
 ```sh
 go get -u github.com/golang/dep/cmd/dep
 ```
+[See more about dep here](https://github.com/golang/dep)
 
 ## Auth0
 

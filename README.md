@@ -12,7 +12,7 @@ go get -u github.com/golang/dep/cmd/dep
 All request will the authenticated against **Auht0**.
 If you wanna disable that, just remove `v1.Use(middlewares.Authentication)`.
 
-You can configure you [**Auth0**](https://auth0.com/) settings in `.env` file.
+You can configure your [**Auth0**](https://auth0.com/) settings in `.env` file.
 
 ```
 AUTH0_JWKS=https://{YOUR_AUTH0_TENANT_DOMAIN}/.well-known/jwks.json

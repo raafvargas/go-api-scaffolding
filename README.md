@@ -57,5 +57,5 @@ Just run the following commands:
 
 ```sh
 docker build -t your-image .
-docker run -p 9000:9000 your-image .
+docker run -p 9000:9000 your-image
 ```

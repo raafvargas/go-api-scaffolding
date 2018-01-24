@@ -10,8 +10,6 @@ RUN go get github.com/golang/dep \
     
 RUN go install go-api-scaffolding
 
-RUN ls
-
 RUN cp /go/bin/go-api-scaffolding /go/src/go-api-scaffolding
 
 EXPOSE 9000

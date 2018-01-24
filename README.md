@@ -1,16 +1,27 @@
 ## Dependencies
 
-`dep` is a dependency management for Go. 
+We are using [dep](https://github.com/golang/dep) for dependency management. 
+
+## Installing
 
 ```sh
 go get -u github.com/golang/dep/cmd/dep
 ```
+
+## Restoring
+
+```sh
+dep ensure
+```
+
+You are ready to Go :)
+
 [See more about dep here](https://github.com/golang/dep)
 
 ## Auth0
 
 All request will the authenticated against **Auht0**.
-If you wanna disable that, just remove `v1.Use(middlewares.Authentication)`.
+If you wanna disable it, just remove `v1.Use(middlewares.Authentication)`.
 
 You can configure your [**Auth0**](https://auth0.com/) settings in `.env` file.
 
@@ -22,7 +33,11 @@ AUTH0_ISSUER=https://{YOUR_AUTH0_TENANT_DOMAIN}.auth0.com/
 
 ## Swagger
 
-`swag` is a swagger docs generator.
+### What is Swagger?
+
+Swagger is a set of open-source tools built around the OpenAPI Specification that can help you design, build, document and consume REST APIs.
+
+For use Swagger in this project, you'll need *gin-swagger*.
 
 ### Installing
 

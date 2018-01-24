@@ -44,7 +44,7 @@ For use Swagger in this project, you'll need *gin-swagger*.
 Install `swag` using `go get`
 
 ```sh
-go get -u github.com/golang/dep/cmd/dep
+go get github.com/swaggo/swag/cmd/swag
 ```
 
 ### Generating docs
